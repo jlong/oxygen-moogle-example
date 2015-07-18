@@ -1,0 +1,36 @@
+*, *::before, *::after { margin: 0; padding: 0; border: 0; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; background: none; background-color: none; outline: none; font-size: 100%; font: inherit; vertical-align: baseline; list-style: none; quotes: none; }
+
+footer, header, hgroup, menu, nav, section, small { display: block; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+body { background: #e3e4e5; color: #444; font-family: "Open Sans", sans-serif; font-weight: 100; font-size: 14px; line-height: 1.4; padding: 0; margin: 0; }
+
+/* Float modifiers */
+.float-left { float: left; border: red; }
+
+.float-right { float: right; }
+
+.blocknav { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+.blocknav-item { display: block; padding: 10px; color: inherit; text-decoration: none; }
+
+.blocknav-item:focus, .blocknav-item:hover { color: black; }
+
+.blocknav-item:hover { text-decoration: underline; }
+
+.button { color: white; background: #494c56; border: none; border-radius: 4px; font-family: "Open Sans", sans-serif; font-weight: 500; padding: 6px 20px; cursor: pointer; box-shadow: black 0 3px 0; -webkit-font-smoothing: antialiased; }
+
+.button:focus, .button:hover { background: #606472; }
+
+.button:active { background: #32343a; }
+
+.row { margin: 1em 0; }
+
+.textbox { background: white; border-top-color: #bbb; border-radius: 4px; font-size: 14px; padding: 6px 6px 5px; box-shadow: #bcbec0 0 3px 0; }
+
+.textbox:focus { box-shadow: #95989b 0 3px 0; }
+
+.site-search { position: fixed; top: 36px; left: 0; right: 0; bottom: 36px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; text-align: center; margin-left: auto; margin-right: auto; }
+
+.site-footer { position: fixed; bottom: 0; left: 0; right: 0; background: #d6d7d9; }

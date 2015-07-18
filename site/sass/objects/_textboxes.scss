@@ -1,0 +1,13 @@
+.textbox {
+  background: white;
+  border-top-color: #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px 6px 5px;
+
+  box-shadow: #bcbec0 0 3px 0;
+
+  &:focus {
+    box-shadow: darken(#bcbec0, 15%) 0 3px 0;
+  }
+}

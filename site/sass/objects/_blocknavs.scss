@@ -1,0 +1,17 @@
+.blocknav {
+  display: flex;
+}
+.blocknav-item {
+  display: block;
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+
+  &:focus, &:hover {
+    color: $loud-color;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

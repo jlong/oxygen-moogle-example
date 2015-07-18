@@ -1,0 +1,28 @@
+// Reset styles on all elements
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  background: none;
+  background-color: none;
+  outline: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  quotes: none;
+}
+
+// Make new HTML 5 elements display block
+footer, header, hgroup, menu, nav, section, small {
+  display: block;
+}
+
+// Ah, yes. Quote me bro!
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}

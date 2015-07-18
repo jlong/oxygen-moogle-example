@@ -1,0 +1,20 @@
+.button {
+  color: white;
+  background: $button-color;
+  border: none;
+  border-radius: 4px;
+  font-family: $sans-serif;
+  font-weight: 500;
+  padding: 6px 20px;
+  cursor: pointer;
+  box-shadow: black 0 3px 0;
+  -webkit-font-smoothing: antialiased;
+
+  &:focus, &:hover {
+    background: lighten($button-color, 10%);
+  }
+
+  &:active {
+    background: darken($button-color, 10%);
+  }
+}
