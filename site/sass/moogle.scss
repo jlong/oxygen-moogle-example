@@ -1,3 +1,15 @@
+/*
+ * moggle.css
+ *
+ * Styles for an example from the Oxygen CSS book. For more info, see:
+ *
+ *     <http://oxygencss.com>
+ *
+ */
+
+
+// Variables
+
 @import "lib/colors";
 @import "lib/fonts";
 
@@ -15,9 +27,8 @@ body {
 }
 
 // Global modifiers
- 
+
 @import "modifiers/float";
-@import "modifiers/screen-reader";
 
 
 // Objects
@@ -30,4 +41,5 @@ body {
 
 
 // Layout
+
 @import "objects/site";

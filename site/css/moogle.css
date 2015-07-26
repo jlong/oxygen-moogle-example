@@ -1,3 +1,4 @@
+/* moggle.css Styles for an example from the Oxygen CSS book. For more info, see: <http://oxygencss.com> */
 *, *::before, *::after { margin: 0; padding: 0; border: 0; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; background: none; background-color: none; outline: none; font-size: 100%; font: inherit; vertical-align: baseline; list-style: none; quotes: none; }
 
 footer, header, hgroup, menu, nav, section, small { display: block; }
@@ -10,8 +11,6 @@ body { color: #444; font-family: "Open Sans", sans-serif; font-weight: 100; font
 .float-left { float: left; }
 
 .float-right { float: right; }
-
-.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 
 .avatar { border-radius: 100%; vertical-align: middle; width: 32px; height: 32px; }
 
