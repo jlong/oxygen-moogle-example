@@ -7,23 +7,23 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 body { color: #444; font-family: "Open Sans", sans-serif; font-weight: 100; font-size: 15px; line-height: 1.4; }
 
 /* Float modifiers */
-.float-left { float: left; border: red; }
+.float-left { float: left; }
 
 .float-right { float: right; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 
-.avatar { border-radius: 100%; vertical-align: middle; }
+.avatar { border-radius: 100%; vertical-align: middle; width: 32px; height: 32px; }
 
-.avatar.x32 { width: 32px; height: 32px; }
+.blocknav { display: block; }
 
-.blocknav { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+.blocknav-item { display: inline-block; }
 
-.blocknav-item { display: block; padding: 10px; color: inherit; text-decoration: none; line-height: 32px; }
+.blocknav-item-link { display: inline-block; padding: 10px; color: inherit; text-decoration: none; line-height: 32px; }
 
-.blocknav-item:focus, .blocknav-item:hover { color: black; }
+.blocknav-item-link:focus, .blocknav-item-link:hover { color: black; }
 
-.blocknav-item:hover { text-decoration: underline; }
+.blocknav-item-link:hover { text-decoration: underline; }
 
 .button { color: white; cursor: pointer; background: #494c56; border: none; border-radius: 4px; box-shadow: #32343a 0 2px 0; font-size: 18px; font-family: "Open Sans", sans-serif; font-weight: bold; -webkit-font-smoothing: antialiased; padding: 8px 20px 7px; }
 
@@ -37,11 +37,9 @@ body { color: #444; font-family: "Open Sans", sans-serif; font-weight: 100; font
 
 .textbox { background: white; border-top-color: #bbb; border-radius: 4px; box-shadow: #bcbec0 0 2px 0; font-size: 18px; padding: 8px 12px 7px; }
 
-.textbox.full-width { width: 100%; }
-
 .textbox:focus { box-shadow: #95989b 0 2px 0; }
 
-.site { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background: #e3e4e5; min-height: 100vh; }
+.site { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; min-height: 100vh; background: #e3e4e5; }
 
 .site-header { padding: 0 10px; }
 

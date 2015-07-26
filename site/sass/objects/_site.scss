@@ -1,9 +1,9 @@
 .site {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 
   background: $background-color;
-  min-height: 100vh;
 }
 
 .site-header {
@@ -21,6 +21,5 @@
 
 .site-footer {
   background: darken($background-color, 5%);
-
   padding: 0 10px;
 }
