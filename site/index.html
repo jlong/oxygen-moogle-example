@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Moogle</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet'>
   <link rel="stylesheet" href="css/moogle.css">
 </head>
 <body class="site">
@@ -13,17 +13,20 @@
       <li><a class="blocknav-item" href="#">Images</a></li>
       <li><a class="blocknav-item" href="#">Dating</a></li>
       <li><a class="blocknav-item" href="#">MooTube</a></li>
-      <li><a class="blocknav-item" href="#">My Account</a></li>
+      <li><a class="blocknav-item" href="#">
+        <img class="avatar x32" src="images/cow.png">
+        <span class="sr-only">Account</span>
+      </a></li>
     </ul>
   </div>
 
   <div class="site-search">
     <form>
       <div class="row">
-        <img class="site-search-logo" src="images/logo.svg" width="290">
+        <img src="images/logo.svg" width="390">
       </div>
       <div class="row">
-        <input class="textbox" type="text" name="q" size="60" autofocus>
+        <input class="textbox large" type="text" name="q" size="60" autofocus>
       </div>
       <div class="row">
         <button class="button" type="submit">Moogle search</button>

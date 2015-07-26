@@ -1,30 +1,26 @@
-.site {}
+.site {
+  display: flex;
+  flex-direction: column;
 
-.site-header {}
+  background: $background-color;
+  min-height: 100vh;
+}
+
+.site-header {
+  padding: 0 10px;
+}
 
 .site-search {
-  position: fixed;
-  top: 36px;
-  left: 0;
-  right: 0;
-  bottom: 36px;
+  flex: 1;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  padding-top: 150px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.site-search-logo { }
-
 .site-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
   background: darken($background-color, 5%);
+
+  padding: 0 10px;
 }

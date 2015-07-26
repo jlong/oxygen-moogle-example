@@ -1,20 +1,25 @@
 .button {
   color: white;
+  cursor: pointer;
   background: $button-color;
   border: none;
   border-radius: 4px;
+  box-shadow: darken($button-color, 10%) 0 2px 0;
+  font-size: 18px;
   font-family: $sans-serif;
-  font-weight: 500;
-  padding: 6px 20px;
-  cursor: pointer;
-  box-shadow: black 0 3px 0;
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
+  padding: 8px 20px 7px;
 
   &:focus, &:hover {
-    background: lighten($button-color, 10%);
+    background: lighten($button-color, 20%);
   }
 
   &:active {
     background: darken($button-color, 10%);
+  }
+
+  & + & {
+    margin-left: 0.5em;
   }
 }
